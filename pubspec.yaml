@@ -1,0 +1,40 @@
+name: profileui
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/profiles/
+    - assets/sheard/
+
+
+  fonts:
+     - family: Comfortaa
+       fonts:
+         - asset: assets/fonts/Comfortaa-Bold.ttf
+         - asset: assets/fonts/Comfortaa-Light.ttf
+         - asset: assets/fonts/Comfortaa-Medium.ttf
+         - asset: assets/fonts/Comfortaa-Regular.ttf
+         - asset: assets/fonts/Comfortaa-SemiBold.ttf
+
+
